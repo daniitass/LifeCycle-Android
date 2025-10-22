@@ -25,3 +25,35 @@ Android invoca `onSaveInstanceState()` antes de destruir una Activity durante un
 - `2025-10-22 17:08:56.555` → MainActivity.onResume()
 
 <img width="1612" height="932" alt="image" src="https://github.com/user-attachments/assets/5e6071e8-00b0-441a-8cc6-afe60bf914c4" />
+# (2) Simulador Home
+## Estado inicial (app en primer plano)
+- `2025-10-22 17:13:57.351` → MainActivity.onRestart()
+- `2025-10-22 17:13:57.352` → MainActivity.onStart()
+- `2025-10-22 17:13:57.354` → MainActivity.onResume()
+
+## App enviada a segundo plano (boton Home)
+- `2025-10-22 17:16:01.440` → MainActivity.onPause()
+- `2025-10-22 17:16:02.515` → MainActivity.onStop()
+- `2025-10-22 17:16:02.516` → MainActivity.onSaveInstanceState()
+
+## Volver a la app desde segundo plano
+- `2025-10-22 17:17:55.088` → MainActivity.onRestart()
+- `2025-10-22 17:17:55.092` → MainActivity.onStart()
+- `2025-10-22 17:17:55.095` → MainActivity.onResume()
+<img width="1484" height="919" alt="image" src="https://github.com/user-attachments/assets/bf54c6c8-e003-4049-bf1f-1a480f1579ba" />
+
+# (3) Botón Atrás
+
+## Primera creación de la Activity
+- `2025-10-22 17:20:12.849` → MainActivity.onCreate(recreada=false)
+- `2025-10-22 17:20:12.889` → MainActivity.onStart()
+- `2025-10-22 17:20:12.894` → MainActivity.onResume()
+
+## Presionar el botón Back
+- `2025-10-22 17:20:24.481` → MainActivity.onPause()
+- `2025-10-22 17:20:25.555` → MainActivity.onStop()
+- `2025-10-22 17:20:25.558` → MainActivity.onSaveInstanceState()
+
+<img width="1362" height="870" alt="image" src="https://github.com/user-attachments/assets/4af71741-8448-4c52-8b0b-a16153f97777" />
+
+
