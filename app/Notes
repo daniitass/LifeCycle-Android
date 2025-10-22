@@ -1,0 +1,36 @@
+(1)---------------------------- simulador de rotacion ----------------------------
+2025-10-22 17:05:58.368 13502-13502 LCYCLE                  com.example.lifecyclemin             D  MainActivity.onCreate(recreada=false)
+2025-10-22 17:05:58.418 13502-13502 LCYCLE                  com.example.lifecyclemin             D  MainActivity.onStart()
+2025-10-22 17:05:58.427 13502-13502 LCYCLE                  com.example.lifecyclemin             D  MainActivity.onResume()
+--------Rote pantalla ------
+2025-10-22 17:08:56.402 13502-13502 LCYCLE                  com.example.lifecyclemin             D  MainActivity.onPause()
+2025-10-22 17:08:56.413 13502-13502 LCYCLE                  com.example.lifecyclemin             D  MainActivity.onStop()
+2025-10-22 17:08:56.421 13502-13502 LCYCLE                  com.example.lifecyclemin             D  MainActivity.onSaveInstanceState()
+2025-10-22 17:08:56.430 13502-13502 LCYCLE                  com.example.lifecyclemin             D  MainActivity.onDestroy()
+2025-10-22 17:08:56.541 13502-13502 LCYCLE                  com.example.lifecyclemin             D  MainActivity.onCreate(recreada=true)
+2025-10-22 17:08:56.549 13502-13502 LCYCLE                  com.example.lifecyclemin             D  MainActivity.onStart()
+2025-10-22 17:08:56.551 13502-13502 LCYCLE                  com.example.lifecyclemin             D  MainActivity.onRestoreInstanceState()
+2025-10-22 17:08:56.555 13502-13502 LCYCLE                  com.example.lifecyclemin             D  MainActivity.onResume()
+
+
+(2) --------------------- Simulador Home --------------------
+2025-10-22 17:13:57.351 13502-13502 LCYCLE                  com.example.lifecyclemin             D  MainActivity.onRestart()
+2025-10-22 17:13:57.352 13502-13502 LCYCLE                  com.example.lifecyclemin             D  MainActivity.onStart()
+2025-10-22 17:13:57.354 13502-13502 LCYCLE                  com.example.lifecyclemin             D  MainActivity.onResume()
+--------- Toque el boton redondo de home -------
+2025-10-22 17:16:01.440 13502-13502 LCYCLE                  com.example.lifecyclemin             D  MainActivity.onPause()
+2025-10-22 17:16:02.515 13502-13502 LCYCLE                  com.example.lifecyclemin             D  MainActivity.onStop()
+2025-10-22 17:16:02.516 13502-13502 LCYCLE                  com.example.lifecyclemin             D  MainActivity.onSaveInstanceState()
+---- Volvi a la app q estaba en 2do plano -----
+2025-10-22 17:17:55.088 13502-13502 LCYCLE                  com.example.lifecyclemin             D  MainActivity.onRestart()
+2025-10-22 17:17:55.092 13502-13502 LCYCLE                  com.example.lifecyclemin             D  MainActivity.onStart()
+2025-10-22 17:17:55.095 13502-13502 LCYCLE                  com.example.lifecyclemin             D  MainActivity.onResume()
+
+(3) -------------- Boton atrás ---------------------
+2025-10-22 17:20:12.849 14280-14280 LCYCLE                  com.example.lifecyclemin             D  MainActivity.onCreate(recreada=false)
+2025-10-22 17:20:12.889 14280-14280 LCYCLE                  com.example.lifecyclemin             D  MainActivity.onStart()
+2025-10-22 17:20:12.894 14280-14280 LCYCLE                  com.example.lifecyclemin             D  MainActivity.onResume()
+---- toque boton back ----
+2025-10-22 17:20:24.481 14280-14280 LCYCLE                  com.example.lifecyclemin             D  MainActivity.onPause()
+2025-10-22 17:20:25.555 14280-14280 LCYCLE                  com.example.lifecyclemin             D  MainActivity.onStop()
+2025-10-22 17:20:25.558 14280-14280 LCYCLE                  com.example.lifecyclemin             D  MainActivity.onSaveInstanceState()
